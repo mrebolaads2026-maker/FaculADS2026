@@ -1,0 +1,160 @@
+<!--Crie uma página HTML de perfil utilizando GitHub Pages que inclua os seguintes elementos:
+
+
+
+Um cabeçalho com seu nome e uma breve descrição.
+
+Uma seção que exiba suas habilidades em formato de lista.
+
+Uma seção que contenha um breve resumo sobre você.
+
+Um formulário de contato que inclua campos para nome, e-mail e mensagem.
+
+
+
+Certifique-se de que a página tenha um estilo visual agradável utilizando CSS.
+
+Passos a seguir:
+
+1 - Configuração do Repositório GitHub
+
+- Crie um repositório no GitHub chamado meu-perfil (ou qualquer nome que desejar).
+
+- No repositório, clique em “Configurações” e, na aba “Pages”, selecione a branch main (ou master) e a pasta /root como a origem do GitHub Pages.
+
+- Salve as configurações e aguarde alguns instantes para que o GitHub Pages gere o link da sua página.
+
+
+
+2 - Criação do Arquivo HTML
+
+1 - No seu repositório, crie um novo arquivo chamado index.html.
+
+2 - Adicione a estrutura básica de um documento HTML.
+
+
+
+3 - Estilo com CSS
+
+1 - Crie um arquivo chamado style.css para adicionar estilos à sua página.
+
+2 - Inclua o link para o CSS no arquivo index.html.
+
+
+
+4 - Código HTML e CSS
+
+Aqui está um exemplo de código HTML e CSS para criar a página de perfil:
+
+Código HTML (index.html):
+</!--
+<!DOCTYPE html>
+
+<html lang=“pt-BR”>
+
+<head>
+
+    <meta charset=“UTF-8”>
+
+    <meta name=“viewport” content=“width=device-width, initial-scale=1.0”>
+
+    <title>Meu Perfil</title>
+
+    <link rel=“stylesheet” href=“style.css”> <!-- Link para o CSS -->
+
+</head>
+
+<body>
+
+    <!-- Cabeçalho -->
+
+    <header>
+
+        <h1>Marcelo Silva Rebola</h1>
+
+        <p>Desenvolvedor Web | Entusiasta de Tecnologia</p>
+
+    </header>
+
+    <!-- Seção de Habilidades -->
+
+    <section>
+
+        <h2>Minhas Habilidades</h2>
+
+        <ul>
+
+            <li>HTML</li>
+
+            <li>CSS</li>
+
+            <li>JavaScript</li>
+
+            <li>Bootstrap</li>
+
+        </ul>
+
+    </section>
+
+    <!-- Seção de Resumo -->
+
+    <section>
+
+        <h2>Sobre Mim</h2>
+
+        <p>Sou um desenvolvedor web apaixonado por criar soluções inovadoras e eficientes. Estou sempre aprendendo e buscando novos desafios na área de tecnologia.</p>
+
+    </section>
+
+    <!-- Seção de Contato -->
+
+    <section>
+
+        <h2>Contato</h2>
+
+        <form>
+
+            <div>
+
+                <label for=“nome”>Nome</label>
+
+                <input type=“text” id=“nome” required>
+
+            </div>
+
+            <div>
+
+                <label for=“email”>E-mail</label>
+
+                <input type=“email” id=“email” required>
+
+            </div>
+
+            <div>
+
+                <label for=“mensagem”>Mensagem</label>
+
+                <textarea id=“mensagem” rows=“4” required></textarea>
+
+            </div>
+
+            <button type=“submit”>Enviar</button>
+
+        </form>
+
+    </section>
+
+    <!-- Rodapé -->
+
+    <footer>
+
+        <p>© 2024 Marcelo Rebola. Todos os direitos reservados.</p>
+
+    </footer>
+
+</body>
+
+</html>
+
+
+
